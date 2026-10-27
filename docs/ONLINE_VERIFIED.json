@@ -1,0 +1,39 @@
+{
+  "slug": "brainboost-flutter",
+  "status": 200,
+  "first_flutter_frame": true,
+  "counter_click_0_to_1": true,
+  "desktop": [
+    1280,
+    800
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "page_errors": [],
+  "failed_resources": [],
+  "external_requests": [],
+  "ci_proof": {
+    "scope": "Actual Flutter release counter scaffold; no Vite games, backend, account or model.",
+    "prefix": "/brainboost-flutter/",
+    "status": 200,
+    "first_flutter_frame": true,
+    "browser_counter_interaction": {
+      "attempted": true,
+      "count_verified": true
+    },
+    "page_errors": [],
+    "http_failures": [],
+    "external_requests": [],
+    "desktop": [
+      1280,
+      800
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "checked_at": "2026-10-26T16:49:12.303Z"
+}

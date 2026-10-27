@@ -1,0 +1,49 @@
+{
+  "recovery_run": "https://github.com/yangwei251003/brainboost-flutter/actions/runs/40357307684",
+  "recovery_commit": "9da9c61223553422859b27898d8bf23932c103b0",
+  "sdk_commit": "3b62efc2a3da49882f43c372e0bc53daef7295a6",
+  "flutter": "3.38.7",
+  "dart": "3.10.7",
+  "generated_lock_sha256": "e5b879407915d8ff4eb38584a65f5bff687b7b7a1f0d217de6cba73607b2453c",
+  "official_package_hashes_verified": 24,
+  "actual_recovery_browser": {
+    "scope": "Actual Flutter release counter scaffold; no Vite games, backend, account or model.",
+    "prefix": "/brainboost-flutter/",
+    "status": 200,
+    "first_flutter_frame": true,
+    "browser_counter_interaction": {
+      "attempted": true,
+      "count_verified": true
+    },
+    "page_errors": [],
+    "http_failures": [],
+    "external_requests": [
+      "https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2"
+    ],
+    "desktop": [
+      1280,
+      800
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "recovery_result": "Real SDK dependency resolution, analyze, original widget test, release build and Chrome counter interaction passed. One default engine font download observed.",
+  "current_followup_changes": [
+    "Register local OFL font under SDK default family Roboto",
+    "Require zero external requests in real browser verification",
+    "Keep enforce-lockfile in formal workflow"
+  ],
+  "main_followup_remote_ci_pending": false,
+  "font_download_root_cause_source": "https://github.com/flutter/flutter/blob/3.38.7/engine/src/flutter/lib/web_ui/lib/src/engine/canvaskit/fonts.dart#L89-L107",
+  "verified_main_commit": "a4cb2135440e4c6d37b506acd2143a75f6d3b43f",
+  "verified_main_run": "https://github.com/yangwei251003/brainboost-flutter/actions/runs/40360380365",
+  "anonymous_windows_chrome_verification": "docs/ONLINE_VERIFIED.json",
+  "web_license_delivery": {
+    "script": "scripts/copy_web_licenses.py",
+    "local_byte_verified_files": 32,
+    "static_target": "licenses/index.html",
+    "deployment_gate": "Formal workflow packages licenses before browser checks and Pages upload."
+  }
+}
